@@ -1,0 +1,35 @@
+{
+  "name": "trello-webhook-processor",
+  "version": "1.0.0",
+  "description": "Ứng dụng xử lý webhook từ Trello và tự động xử lý các file Excel đính kèm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ignore dbjson/* index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@google-cloud/storage": "^7.6.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "googleapis": "^105.0.0",
+    "json-server": "^0.17.4",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.15.1",
+    "multer": "^1.4.5-lts.1",
+    "ngrok": "^5.0.0-beta.2",
+    "pm2": "^5.3.1",
+    "read-excel-file": "^5.7.1",
+    "socket.io": "^4.7.5",
+    "wake_on_lan": "^1.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

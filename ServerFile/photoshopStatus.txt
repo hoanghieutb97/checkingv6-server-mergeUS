@@ -1,0 +1,1 @@
+{"state":"awaitReady","err":false,"cardId":false}
